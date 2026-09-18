@@ -1,4 +1,4 @@
-package com.example.aulatelas.auth
+package com.example.aulamobile.auth
 
 import androidx.lifecycle.ViewModel
 import com.google.firebase.FirebaseNetworkException

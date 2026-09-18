@@ -1,4 +1,4 @@
-package com.example.aulatelas.navigation
+package com.example.aulamobile.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -9,12 +9,14 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.aulatelas.auth.AuthViewModel
+import com.example.aulamobile.auth.AuthViewModel
+import com.example.aulatelas.navigation.Screen
 import com.example.aulatelas.screens.AuthMode
 import com.example.aulatelas.screens.LoginScreen
 import com.example.aulatelas.screens.SignInScreen
 import com.example.aulatelas.screens.SplashScreen
 import com.example.aulatelas.screens.TelasScreen
+
 
 @Composable
 fun AppNav(vm: AuthViewModel = viewModel()) {
