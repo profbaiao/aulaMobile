@@ -1,4 +1,4 @@
-package com.example.aulatelas.navigation
+package com.example.aulamobile.navigation
 
 sealed class Screen(val route: String){
     data object Splash: Screen("splash")

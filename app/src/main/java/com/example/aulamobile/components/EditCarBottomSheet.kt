@@ -1,4 +1,4 @@
-package com.example.aulatelas.components
+package com.example.aulamobile.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth

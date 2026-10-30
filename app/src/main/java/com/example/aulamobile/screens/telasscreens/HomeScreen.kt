@@ -1,4 +1,4 @@
-package com.example.aulatelas.screens.telasscreens
+package com.example.aulamobile.screens.telasscreens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -39,10 +39,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
-import com.example.aulatelas.components.EditCarBottomSheet
-import com.example.aulatelas.firebase.Car
-import com.example.aulatelas.firebase.FirebaseRepository
-import com.example.aulatelas.ui.theme.green
+import com.example.aulamobile.components.EditCarBottomSheet
+import com.example.aulamobile.firebase.Car
+import com.example.aulamobile.firebase.FirebaseRepository
+import com.example.aulamobile.theme.green
+
 
 @Composable
 fun HomeScreen(modifier: Modifier = Modifier) {

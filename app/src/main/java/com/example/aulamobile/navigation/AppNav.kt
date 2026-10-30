@@ -10,12 +10,11 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.aulamobile.auth.AuthViewModel
-import com.example.aulatelas.navigation.Screen
-import com.example.aulatelas.screens.AuthMode
-import com.example.aulatelas.screens.LoginScreen
-import com.example.aulatelas.screens.SignInScreen
-import com.example.aulatelas.screens.SplashScreen
-import com.example.aulatelas.screens.TelasScreen
+import com.example.aulamobile.screens.AuthMode
+import com.example.aulamobile.screens.LoginScreen
+import com.example.aulamobile.screens.SignInScreen
+import com.example.aulamobile.screens.SplashScreen
+import com.example.aulamobile.screens.TelasScreen
 
 
 @Composable

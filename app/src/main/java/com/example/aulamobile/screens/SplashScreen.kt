@@ -1,4 +1,4 @@
-package com.example.aulatelas.screens
+package com.example.aulamobile.screens
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image

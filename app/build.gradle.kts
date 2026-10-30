@@ -55,8 +55,8 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
 
     debugImplementation(libs.androidx.material.icons.exetended) // biblioteca dos icones do material design
-    implementation("androidx.navigation:navigation-compose:2.8.0")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.3")
+    implementation("androidx.navigation:navigation-compose:2.10.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.11.0")
 
     // Import the Firebase BoM
     implementation(platform("com.google.firebase:firebase-bom:34.11.0"))

@@ -1,4 +1,4 @@
-package com.example.aulatelas.firebase
+package com.example.aulamobile.firebase
 
 import androidx.compose.runtime.mutableStateListOf
 import com.google.firebase.Firebase

@@ -1,4 +1,5 @@
-package com.example.aulatelas.screens
+package com.example.aulamobile.screens
+
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -31,12 +32,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.aulatelas.screens.telasscreens.ContactsScreen
-import com.example.aulatelas.screens.telasscreens.EventsScreen
-import com.example.aulatelas.screens.telasscreens.HomeScreen
-import com.example.aulatelas.screens.telasscreens.ProfileScreen
-import com.example.aulatelas.ui.theme.AulaTelasTheme
-
+import com.example.aulamobile.ui.theme.AulaMobileTheme
+import com.example.aulamobile.screens.telasscreens.ContactsScreen
+import com.example.aulamobile.screens.telasscreens.EventsScreen
+import com.example.aulamobile.screens.telasscreens.ProfileScreen
+import com.example.aulamobile.screens.telasscreens.HomeScreen
 
 class BottomAppBarItem(
     val icon: ImageVector,
@@ -195,7 +195,7 @@ fun TelasScreen(
 @Preview
 @Composable
 private fun AppPreview() {
-    AulaTelasTheme {
+    AulaMobileTheme {
         TelasScreen()
     }
 }

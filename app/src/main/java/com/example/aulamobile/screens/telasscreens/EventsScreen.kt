@@ -1,4 +1,4 @@
-package com.example.aulatelas.screens.telasscreens
+package com.example.aulamobile.screens.telasscreens
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Column

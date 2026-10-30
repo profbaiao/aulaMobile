@@ -1,4 +1,4 @@
-package com.example.aulatelas.ui.theme
+package com.example.aulamobile.theme
 
 import android.app.Activity
 import android.os.Build
